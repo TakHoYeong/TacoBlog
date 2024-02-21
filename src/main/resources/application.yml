@@ -14,6 +14,17 @@ spring:
     hibernate:
       ddl-auto: update
 
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 189945765520-gkvtkviosig0p5fqmtl9jlh00me3qb8g.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
+
 jwt:
   issuer: xkrghdud15967@gmail.com
   secret_key: taco-blog
