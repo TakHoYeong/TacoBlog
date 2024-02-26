@@ -2,6 +2,8 @@ package me.taco.springbootdeveloper.config;
 
 import lombok.RequiredArgsConstructor;
 import me.taco.springbootdeveloper.config.jwt.TokenProvider;
+import me.taco.springbootdeveloper.config.oauth.OAuth2AuthorizationRequestBasedOnCookieRepository;
+import me.taco.springbootdeveloper.config.oauth.OAuth2SuccessHandler;
 import me.taco.springbootdeveloper.config.oauth.OAuth2UserCustomService;
 import me.taco.springbootdeveloper.repository.RefreshTokenRepository;
 import me.taco.springbootdeveloper.service.UserService;
@@ -16,8 +18,6 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.HttpStatusEntryPoint;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
-
-import static org.springframework.boot.autoconfigure.security.servlet.PathRequest.toH2Console;
 
 @RequiredArgsConstructor
 @Configuration
