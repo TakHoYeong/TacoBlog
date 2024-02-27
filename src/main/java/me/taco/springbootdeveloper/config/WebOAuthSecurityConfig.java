@@ -31,7 +31,7 @@ public class WebOAuthSecurityConfig {
     @Bean
     public WebSecurityCustomizer configure() {
         return (web) -> web.ignoring()
-                .requestMatchers("/img/**", "/css/**", "/js/**");
+                .requestMatchers("/static/mg/img/**", "/css/**", "/js/**");
     }
 
     @Bean
