@@ -1,4 +1,4 @@
-게시판 만들기 (Spring boot + React)
+게시판 만들기 (Spring boot)
 =
 
 
