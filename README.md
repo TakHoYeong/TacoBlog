@@ -10,7 +10,7 @@ Spring boot3 으로 만든 게시판입니다.
   - Thymeleaf
   - mariaDB
   - JPA
-  - 
+    
 
     
 ### 🛠️구현기능
